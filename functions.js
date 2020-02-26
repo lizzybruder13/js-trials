@@ -3,15 +3,15 @@
 
 // 1. isHometown
 
-function isHometown(town){
-  return town === 'San Francisco';
-}
+// function isHometown(town){
+//   return town === 'San Francisco';
+// }
+
+const isHometown = (town) => town === 'San Francisco';
 
 // 2. getFullName
 
-function getFullName(first_name, last_name){
-  return `${first_name} ${last_name}`;
-}
+const getFullName = (first_name, last_name) => `${first_name} ${last_name}`;
 
 
 // 3. calculateTotal
@@ -37,7 +37,10 @@ function calculateTotal(base_price, state, tax = 0.05){
 }
 
 
-console.log(isHometown('San Francisco'));
+// isHometown('San Francisco');
 
-console.log(getFullName('Liz', 'Bruder'));
-console.log(calculateTotal(300, 'MA'));
+// getFullName('Liz', 'Bruder');
+
+getFullName('Hi', 'Bye');
+
+//isHometown('San Francisco');
